@@ -18144,6 +18144,12 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.67302626
       objectReference: {fileID: 0}
+    - target: {fileID: 6607038188529163650, guid: 0e84f62f89dc3d84bbf530bf8d08e5a5,
+        type: 3}
+      propertyPath: _particleSystem
+      value: 
+      objectReference: {fileID: 1446000154568370794, guid: 41cb9bb2364060649bd25b88384a8ae3,
+        type: 3}
     - target: {fileID: 6877075219040684120, guid: 0e84f62f89dc3d84bbf530bf8d08e5a5,
         type: 3}
       propertyPath: m_LocalPosition.x
