@@ -5896,6 +5896,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 621442465}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &625858085 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3007094645805529420, guid: 0e84f62f89dc3d84bbf530bf8d08e5a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2608428042113153231}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &634728709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18148,8 +18154,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _particleSystem
       value: 
-      objectReference: {fileID: 1446000154568370794, guid: 41cb9bb2364060649bd25b88384a8ae3,
-        type: 3}
+      objectReference: {fileID: 625858085}
     - target: {fileID: 6877075219040684120, guid: 0e84f62f89dc3d84bbf530bf8d08e5a5,
         type: 3}
       propertyPath: m_LocalPosition.x
