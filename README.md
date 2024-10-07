@@ -39,11 +39,6 @@ Estas técnicas han reducido el uso de memoria y el tiempo de procesamiento, mej
 - Disminución del tiempo de carga inicial de la escena.
 - Reducción del uso de CPU y GPU en dispositivos de bajo rendimiento.
 
-## Recomendaciones Futuras
-Para continuar mejorando el rendimiento, se recomienda:
-1. Implementar `Level of Detail (LOD)` en objetos de alta densidad de polígonos.
-2. Evaluar el uso de `Texture Atlasing` para disminuir el número de draw calls.
-3. Optimizar los scripts y componentes no esenciales en las escenas.
 
 Si tienes alguna pregunta o necesitas más detalles sobre estas implementaciones, no dudes en contactarnos.
 
