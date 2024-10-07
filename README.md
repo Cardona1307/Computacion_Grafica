@@ -1,5 +1,7 @@
 # Proyecto: **Optimización de Entorno en Unity**
 
+Video Profiler [Enlace Youtube](https://youtu.be/JR-MsBsRQNY). 
+
 ## Descripción
 Este README detalla las técnicas de optimización implementadas para mejorar el rendimiento de nuestro proyecto en Unity. La optimización se centró en reducir el uso de memoria, mejorar la eficiencia del renderizado y disminuir el consumo de recursos en general, manteniendo la calidad visual aceptable para la jugabilidad.
 
