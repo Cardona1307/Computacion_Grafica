@@ -41,9 +41,27 @@ Estas técnicas han reducido el uso de memoria y el tiempo de procesamiento, mej
 - Disminución del tiempo de carga inicial de la escena.
 - Reducción del uso de CPU y GPU en dispositivos de bajo rendimiento.
 
+## Shader | Distorsion de Calor
+Autor: Juan camilo cardona
+Fecha: Octubre 8, 2024
+ Descripción:
+-Este shader simula el efecto de distorsión por calor, similar al que se percibe sobre superficies calientes.
+ Utiliza ruido para generar un patrón de distorsión que se mueve a través del objeto.
+ El shader permite controlar la velocidad de la distorsión, la intensidad de los colores, y aplicar una máscara para limitar el área afectada.
 
-Si tienes alguna pregunta o necesitas más detalles sobre estas implementaciones, no dudes en contactarnos.
+ Propiedades:
+ - distorcionColor (Float): Controla la intensidad del color aplicado en la distorsión.
+ - VelocidadDistorsion (Vector2): Establece la velocidad y dirección del desplazamiento de la distorsión.
+ - mask (Texture2D): Se usa para definir un área específica donde se aplicará el efecto de distorsión.
+
+Estructura del Shader:
+ - Screen Position: Captura la posición de la pantalla para manipular las coordenadas de UV.
+ - Simple Noise: Genera un ruido que se desplaza y se multiplica para crear el efecto de distorsión.
+ - Tiling And Offset: Permite ajustar la repetición y el desplazamiento del ruido para generar el movimiento de distorsión.
+ - Lerp: Interpola entre dos colores, uno de ellos basado en la propiedad distorcionColor.
+ - Sample Texture 2D: Aplica una textura que actúa como máscara, limitando el área donde el efecto tiene lugar.
+ - Add y Multiply: Se utilizan para combinar y manipular los valores de color y la intensidad de la distorsión.
+
+
 
 ---
-
-Puedes modificar este README según la estructura de tu proyecto y agregar métricas específicas si has hecho pruebas de rendimiento.
